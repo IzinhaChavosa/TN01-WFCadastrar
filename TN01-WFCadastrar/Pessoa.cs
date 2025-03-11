@@ -29,7 +29,7 @@ namespace TN01_WFCadastrar
         public string NomeCompleto { get; set; }
         public string DddTelefone { get; set; }
         public DateTime DataNascimento { get; set; }
-        public  string Ecolaridade { get; set; }
+        public  string? Escolaridade { get; set; }
         public char Sexo  { get; set; }
         public double RendaMensal { get; set; }
         public  bool PossuiFilhos { get; set; }
